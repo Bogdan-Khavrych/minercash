@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="description">
+    <meta name="keywords" content="keywords">
+    <title>Minercash</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="css/style.min.css">
+    <style>
+        info{
+            display: flex;
+            justify-content: center;
+            height: 44px;
+            align-items: center;
+        }
+        info div{
+            font-size: 14px;
+            padding: 0 20px;
+        }
+        info div a{
+            color: #73A2E1;
+            border-bottom: 1px solid #73A2E1;
+        }
+    </style>
+</head>
+ 
+<body>
+
+<info class="info">
+    <div>Полная версия сайта расположена по адресу: https://minercash.io</div>
+    <div><a target="_blank" href="https://minercash.io">Перейти по ссылке</a></div>
+</info>
+
+<header class="header">
+    <div class="container">
+        <div class="header__title">
+            <a href="#" class="header__logo">
+                <img width="172" height="37" src="images/logo.png" alt="">
+            </a>
+            <nav class="header__nav">
+                <ul>
+                    <li>
+                        <a href="#tariffs">купить</a>
+                    </li>
+                    <li>
+                        <a href="#profitability">доходность</a>
+                    </li>
+                    <li>
+                        <a href="#about">о нас</a>
+                    </li>
+                    <li>
+                        <a href="#advantages">преимущества</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="dropdown-lang">
+                <a href="#" class="dropdown-lang__flag is-active"><img width="26" height="26" src="images/ru-lang.png"
+                        alt=""></a>
+                <div class="dropdown-lang__content">
+                    <a href="#" class="dropdown-lang__flag"><img width="26" height="26" src="images/gbr-lang.png"
+                            alt=""></a>
+                    <a href="#" class="dropdown-lang__flag"><img width="26" height="26" src="images/france-flag.webp"
+                        alt=""></a>
+                    <a href="#" class="dropdown-lang__flag"><img width="26" height="26" src="images/germany-flag.png"
+                        alt=""></a>
+                </div>
+            </div>
+            <div class="header__log">
+                <a href="#login" class="header__login header__login--popup">Вход</a>
+                <a href="#register" class="header__register header__register--popup">Регистрация</a>
+            </div>
+
+            <div class="dropdown">
+                <button onclick="myDropBtn()" class="dropbtn"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <div class="header__nav-btn--menu">
+                        <button onclick="myDropBtn()" class="header__nav-btn--menu"></button>
+                    </div>
+                    <div class="header__nav-btn--wrap">
+                        <nav class="header__nav--menu">
+                            <ul>
+                                <li>
+                                    <a href="#tariffs">купить</a>
+                                </li>
+                                <li>
+                                    <a href="#profitability">доходность</a>
+                                </li>
+                                <li>
+                                    <a href="#about">о нас</a>
+                                </li>
+                                <li>
+                                    <a href="#advantages">преимущества</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__log--menu">
+                            <a href="#login" class="header__login--menu header__login--popup">Вход</a>
+                            <a href="#register" class="header__register--menu header__register--popup">Регистрация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="header__slider">
+        <div class="header__slide">
+            <div class="header__slider-wrapper">
+                <div class="header__slider-inner">
+                    <div class="header__slider-text">
+                        <h2 class="header__slider-title">
+                            Начните майнить
+                        </h2>
+                        <h2 class="header__slider-title">
+                            биткоин уже сегодня!
+                        </h2>
+                        <h3 class="header__slider-info">
+                            Вы получите доступ к новейшим и наиболее прогрессивным
+                            технологиям в отрасли, предоставленным ведущими компаниями.
+                        </h3>
+                        <a href="#" class="default-btn">
+                            Начать майнинг
+                        </a>
+                    </div>
+                </div>
+                <div class="header__slider-image">
+                    <img src="images/slide-1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="header__slide">
+            <div class="header__slider-wrapper">
+                <div class="header__slider-inner">
+                    <div class="header__slider-text">
+                        <h2 class="header__slider-title">
+                            Начните майнить
+                        </h2>
+                        <h2 class="header__slider-title">
+                            биткоин уже сегодня!
+                        </h2>
+                        <h3 class="header__slider-info">
+                            Вы получите доступ к новейшим и наиболее прогрессивным
+                            технологиям в отрасли, предоставленным ведущими компаниями.
+                        </h3>
+                        <a href="#" class="default-btn">
+                            Начать майнинг
+                        </a>
+                    </div>
+                </div>
+                <div class="header__slider-image">
+                    <img src="images/slide-2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="header__slide">
+            <div class="header__slider-wrapper">
+                <div class="header__slider-inner">
+                    <div class="header__slider-text">
+                        <h2 class="header__slider-title">
+                            Начните майнить
+                        </h2>
+                        <h2 class="header__slider-title">
+                            биткоин уже сегодня!
+                        </h2>
+                        <h3 class="header__slider-info">
+                            Вы получите доступ к новейшим и наиболее прогрессивным
+                            технологиям в отрасли, предоставленным ведущими компаниями.
+                        </h3>
+                        <a href="#" class="default-btn">
+                            Начать майнинг
+                        </a>
+                    </div>
+                </div>
+                <div class="header__slider-image">
+                    <img src="images/slide-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="profitability"  class="calc">
+    <div class="container">
+        <div class="calc__title">
+            <h3 class="calc__title-text">доходность</h3>
+        </div>
+        <div class="calc__content">
+            <div class="calc__info">
+                <div class="calc__option">
+                    <h4 class="calc__option-text">Что хотите майнить:</h4>
+                    <div class="calc__option-btn-inner active-coin" coin-name="MH/S" coin-price="0.08" coin-percent="3.65%">
+                        <button class="calc__option-btn">
+                            <img src="images/ethereum.png" alt="">
+                            <span>Еthereum</span>
+                        </button>
+                    </div>
+                    <div class="calc__option-btn-inner" coin-name="GH/S" coin-price="25" coin-percent="23.9%">
+                        <button class="calc__option-btn">
+                            <img src="images/bitcoin.png" alt="">
+                            <span>Bitcoin</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="calc__input">
+                    <h4 class="calc__input-text">Сумма покупки, $ :</h4>
+                    <div class="calc__input-inner">
+                        <input class="calculator" calc="542" type="number" min="0" value="0" oninput="func(this)"
+                            onKeyDown="limitText(this,10);" onKeyUp="limitText(this,10);" />
+                    </div>
+                    <div class="calc__result">
+                        <h4 class="calc__result-title">Вы получите:</h4>
+                        <h4 class="calc__result-price">0 GH/S</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="calc__circle">
+                <h4 class="calc__circle-title">Прибыль в сутки</h4>
+                <div class="calc__circle-percent">-</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="begin">
+    <div class="container">
+        <div class="begin__title">
+            <h3 class="begin__title-text">
+                С чего начать?
+            </h3>
+        </div>
+    </div>
+    <div class="begin__wrapper">
+        <div class="container">
+            <div class="begin__content">
+                <div class="begin__inner">
+                    <div class="begin__block">
+                        <h4 class="begin__block-title">
+                            Зарегистрируйтесь
+                        </h4>
+                        <h5 class="begin__block-text">
+                            Заполните форму и будьте готовы начать
+                            облачный майнинг за меньше чем минуту!
+                        </h5>
+                        <hr class="begin__block-line">
+                    </div>
+                </div>
+                <div class="begin__inner">
+                    <div class="begin__block">
+                        <h4 class="begin__block-title">
+                            Купите контракт
+                        </h4>
+                        <h5 class="begin__block-text">
+                            Выберите подходящий себе контракт
+                            и начните облачный майнинг криптовалют
+                        </h5>
+                        <hr class="begin__block-line">
+                    </div>
+                </div>
+                <div class="begin__inner">
+                    <div class="begin__block">
+                        <h4 class="begin__block-title">
+                            Получайте выплаты
+                        </h4>
+                        <h5 class="begin__block-text">
+                            Выводите свою прибыль на ежедневной основе на криптовалютный кошелек
+                        </h5>
+                        <hr class="begin__block-line">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <div class="about__content">
+            <div class="about__logo">
+                <img src="images/about-logo.png" alt="">
+            </div>
+            <div class="about__info">
+                <h3 class="about__title">о нас</h4>
+                    <h4 class="about__text">текст о компании</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="advantages" class="advantages">
+    <div class="container">
+        <div class="advantages__name">
+            <h3 class="advantages__title">Преимущества</h3>
+        </div>
+        <div class="advantages__wrapper">
+            <div class="advantages__block">
+                <div class="advantages__icon">
+                    <img src="images/advantages-icon-1.png" alt="">
+                </div>
+                <div class="advantages__content">
+                    <h5 class="advantages__info">
+                        Самые большие выплаты
+                    </h5>
+                    <h6 class="advantages__text">
+                        Зарабатывайте до 95% за 60
+                        секунд, торгуя опционами
+                    </h6>
+                </div>
+            </div>
+            <div class="advantages__block">
+                <div class="advantages__icon">
+                    <img src="images/advantages-icon-2.png" alt="">
+                </div>
+                <div class="advantages__content">
+                    <h5 class="advantages__info">
+                        Гибкое кредитное плечо
+                    </h5>
+                    <h6 class="advantages__text">
+                        От 1:3 до 1:100 для любой торговой стратегии
+                    </h6>
+                </div>
+            </div>
+            <div class="advantages__block">
+                <div class="advantages__icon">
+                    <img src="images/advantages-icon-3.png" alt="">
+                </div>
+                <div class="advantages__content">
+                    <h5 class="advantages__info">
+                        Закладывание контрактов
+                    </h5>
+                    <h6 class="advantages__text">
+                        Получите до 100% от стоимости контракта мгновенно на свой торговый счёт.
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tariffs" class="tarrifs">
+    <div class="container">
+        <div class="tarrifs__title">
+            <h3 class="tarrifs__title-name">Тарифы</h3>
+        </div>
+        <div class="tarrifs__content">
+            <div class="tarrifs__wrapper">
+                <div class="tarrifs__block-slide">
+                    <div class="tarrifs__block">
+                        <div class="tarrifs__block-head">
+                            <div class="tarrifs__block-head-title">
+                                <h5>1 год</h5>
+                            </div>
+                            <div class="tarrifs__block-head-switcher">
+                                <label class="switch">
+                                    <input class="switcher-input switch-one" type="checkbox">
+                                    <span class="slider-switch round"></span>
+                                </label>
+                            </div>
+                            <div class="tarrifs__block-head-title">
+                                <h5>5 лет</h5>
+                            </div>
+                        </div>
+                        <div class="tarrifs__block-name">
+                            <h4>SHA-256</h4>
+                        </div>
+                        <div class="tarrifs__block-info">
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Стратегия:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="strategist-one" one-year="10 major coins" five-year="50 major coins">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Мин. мощность:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="engine-one" one-year="10 GH/s" five-year="50 GH/s">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Обслуживание:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="service-one" one-year="0.001$   10 GH/s / 24h"
+                                        five-year="0.005$   10 GH/s / 24h">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Выплаты: </h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="payment-one" one-year="Ежедневно в BTC" five-year="Ежедневно">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Наличие:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="stock-one" one-year="В наличии" five-year="Нету в наличии">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Потенциальный доход:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="profit-one" one-year="до  125% в год" five-year="до  135% в год">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Цена контракта:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="price-one" one-year="0.415 за 10 GH/s" five-year="0.915 за 10 GH/s">-</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tarrifs__block-buy">
+                            <a href="#" class="tarrifs__block-btn">Купить сейчас</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarrifs__block-slide">
+                    <div class="tarrifs__block">
+                        <div class="tarrifs__block-head">
+                            <div class="tarrifs__block-head-title">
+                                <h5>1 год</h5>
+                            </div>
+                            <div class="tarrifs__block-head-switcher">
+                                <label class="switch">
+                                    <input class="switcher-input switch-two" type="checkbox">
+                                    <span class="slider-switch round"></span>
+                                </label>
+                            </div>
+                            <div class="tarrifs__block-head-title">
+                                <h5>5 лет</h5>
+                            </div>
+                        </div>
+                        <div class="tarrifs__block-name">
+                            <h4>SHA-256 PRO</h4>
+                        </div>
+                        <div class="tarrifs__block-info">
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Стратегия:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="strategist-two" one-year="100-150 altcoins" five-year="500-750 altcoins">-
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Мин. мощность:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="engine-two" one-year="10 GH/s" five-year="50 GH/s">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Обслуживание:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="service-two" one-year="0.001$   10 GH/s / 24h"
+                                        five-year="0.005$   10 GH/s / 24h">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Выплаты: </h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="payment-two" one-year="Ежедневно в BTC" five-year="Ежедневно">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Наличие:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="stock-two" one-year="В наличии" five-year="В наличии">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Потенциальный доход:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="profit-two" one-year="до  145% в год" five-year="до  185% в год">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Цена контракта:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="price-two" one-year="0.491 за 10 GH/s" five-year="0.991 за 10 GH/s">-</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tarrifs__block-buy">
+                            <a href="#" class="tarrifs__block-btn">Купить сейчас</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarrifs__block-slide">
+                    <div class="tarrifs__block">
+                        <div class="tarrifs__block-head">
+                            <div class="tarrifs__block-head-title">
+                                <h5>1 год</h5>
+                            </div>
+                            <div class="tarrifs__block-head-switcher">
+                                <label class="switch">
+                                    <input class="switcher-input switch-three" type="checkbox">
+                                    <span class="slider-switch round"></span>
+                                </label>
+                            </div>
+                            <div class="tarrifs__block-head-title">
+                                <h5>5 лет</h5>
+                            </div>
+                        </div>
+                        <div class="tarrifs__block-name">
+                            <h4>SHA-256 BCH</h4>
+                        </div>
+                        <div class="tarrifs__block-info">
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Стратегия:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="strategist-three" one-year="100-150 altcoins" five-year="500-750 altcoins">-
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Мин. мощность:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="engine-three" one-year="10 GH/s" five-year="40 GH/s">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Обслуживание:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="service-three" one-year="0.001$   10 GH/s / 24h"
+                                        five-year="0.004$   10 GH/s / 24h">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Выплаты: </h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="payment-three" one-year="Ежедневно в BTC" five-year="Ежедневно">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Наличие:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="stock-three" one-year="В наличии" five-year="Нету в наличии">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Потенциальный доход:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="profit-three" one-year="до  125% в год" five-year="до  165% в год">-</h5>
+                                </div>
+                            </div>
+                            <div class="tarrifs__block-field">
+                                <div class="tarrifs__block-field-name">
+                                    <h5>Цена контракта:</h5>
+                                </div>
+                                <div class="tarrifs__block-field-value">
+                                    <h5 id="price-three" one-year="0.415 за 10 GH/s" five-year="0.815 за 10 GH/s">-</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tarrifs__block-buy">
+                            <a href="#" class="tarrifs__block-btn">Купить сейчас</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tarrifs__link">
+            <a href="account-tariffs.html" class="tarrifs__button">Посмотреть все тарифы</a>
+        </div>
+    </div>
+</section>
+
+<section class="gets">
+    <div class="container">
+        <div class="gets__title">
+            <h3 class="gets__title-name">Вы получите</h3>
+        </div>
+        <div class="gets__content">
+            <div class="gets__block">
+                <div class="gets__icon">
+                    <img src="images/gets-1.png" alt="">
+                </div>
+                <div class="gets__text">
+                    Ежедневные выплаты
+                </div>
+            </div>
+            <div class="gets__block">
+                <div class="gets__icon">
+                    <img src="images/gets-2.png" alt="">
+                </div>
+                <div class="gets__text">
+                    Доход от майнинга
+                    на реальном оборудовании
+                </div>
+            </div>
+            <div class="gets__block">
+                <div class="gets__icon">
+                    <img src="images/gets-3.png" alt="">
+                </div>
+                <div class="gets__text">
+                    Возможность взять
+                    в аренду часть мощностей
+                </div>
+            </div>
+            <div class="gets__block">
+                <div class="gets__icon">
+                    <img src="images/gets-4.png" alt="">
+                </div>
+                <div class="gets__text">
+                    Простой процесс оплаты
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="payment">
+    <div class="container">
+        <div class="payment__title">
+            <h3 class="payment__title-name">
+                Способы покупки и вывода
+            </h3>
+        </div>
+        <div class="payment__gallery">
+            <div class="payment__icon">
+                <img src="images/payment-1.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-2.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-3.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-4.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-5.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-6.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-7.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-8.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-9.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-10.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-11.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-12.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-13.png" alt="">
+            </div>
+            <div class="payment__icon">
+                <img src="images/payment-14.png" alt="">
+            </div>
+        </div>
+        <div class="payment__btn">
+            <a href="#" class="default-btn">Открыть счет</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <img src="images/footer-logo.png" alt="">
+                </div>
+                <div class="footer__info">
+                    <h5 class="footer__info-text">Minercash © 2020
+                        Все права защищены</h5>
+                </div>
+                <div class="footer__help">
+                    <ul>
+                        <li>
+                            <a href="#" class="footer__support">support</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer__chanel">chanel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__links">
+                <div class="footer__block">
+                    <ul>
+                        <li>
+                            <a href="#">главная</a>
+                        </li>
+                        <li>
+                            <a href="#">купить</a>
+                        </li>
+                        <li>
+                            <a href="#">о нас</a>
+                        </li>
+                        <li>
+                            <a href="#">преимущества</a>
+                        </li>
+                        <li>
+                            <a href="#">политика конфиденциальности</a>
+                        </li>
+                        <li>
+                            <a href="#">реферальная программа</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="footer__block">
+                    <ul>
+                        <li>
+                            <a href="#">почему Miner Cash</a>
+                        </li>
+                        <li>
+                            <a href="#">регистрация</a>
+                        </li>
+                        <li>
+                            <a href="#">партнерам</a>
+                        </li>
+                        <li>
+                            <a href="#">поддержка</a>
+                        </li>
+                    </ul>
+                </div> -->
+                <!-- <div class="footer__block">
+                    <ul>
+                        <li>
+                            <a href="#">условия пользования</a>
+                        </li>
+                        <li>
+                            <a href="privacy.html">политика конфиденциальности</a>
+                        </li>
+                        <li>
+                            <a href="#">положение о рисках</a>
+                        </li>
+                        <li>
+                            <a href="account-referal.html">реферальная программа</a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal window login start -->
+<div id="login" class="white-popup-block mfp-hide">
+    <div class="container">
+        <div class="modal-lg">
+            <div class="modal-lg__head">
+                <h3 class="modal-lg__head-name">Войти</h3>
+                <a class="modal-lg__head-close" href="#"></a>
+            </div>
+            <div class="modal-lg__content">
+                <form action="" class="modal-lg__form">
+                    <div class="modal-lg__inputs">
+                        <input type="text" placeholder="E-mail">
+                        <input type="text" placeholder="Пароль">
+                    </div>
+                    <div class="modal-lg__check">
+                        <div class="modal-lg__checkbox">
+                            <label>
+                                <input type="checkbox">
+                                <span>Запомнить меня</span>
+                            </label>
+                        </div>
+                        <div class="modal-lg__change-ps">
+                            <a href="#">Забыли пароль?</a>
+                        </div>
+                    </div>
+                    <div class="modal-lg__submit">
+                        <button type="submit">Войти</button>
+                    </div>
+                </form>
+                <div class="modal-lg__bottom">
+                    <div class="modal-lg__help">
+                        <span>Еще нет аккаунта?</span>
+                        <a href="#">Зарегистрируйтесь</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal window login end -->
+
+<!-- Modal window register start -->
+<div id="register" class="white-popup-block mfp-hide">
+    <div class="container">
+        <div class="modal-reg">
+            <div class="modal-reg__head">
+                <h3 class="modal-reg__head-name">Зарегистрировать аккаунт</h3>
+                <a class="modal-reg__head-close" href="#"></a>
+            </div>
+            <form action="" class="modal-reg__form">
+                <div class="modal-reg__form-name">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Фамилия">
+                </div>
+                <div class="modal-reg__form-mail">
+                    <input type="text" placeholder="E-mail">
+                </div>
+                <div class="modal-reg__form-phone">
+                    <input id="phone" name="phone" type="tel">
+                </div>
+                <div class="modal-reg__form-country">
+                    <input type="text" placeholder="Страна">
+                </div>
+                <div class="modal-reg__form-socials">
+                    <input type="text" placeholder="@nameUser">
+                    <input type="text" placeholder="@nameUser">
+                </div>
+                <div class="modal-reg__form-check">
+                    <div class="modal-reg__form-checkbox">
+                        <label>
+                            <input type="checkbox">
+                            <span>Я ознакомился и согласен с <a href="#" target="_blank">Политикой соблюдения конфиденциальности</a></span>
+                        </label>
+                    </div>
+                    <div class="modal-reg__form-checkbox">
+                        <label>
+                            <input type="checkbox">
+                            <span>Я хочу периодически получать по электронной почте уведомления <a href="#"
+                                    target="_blank">и скидках</a> и специальных предложениях.</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-reg__form-submit">
+                    <button type="submit">Зарегистрироваться</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Modal window register end -->
+
+<!-- Modal window account start -->
+<div id="account" class="white-popup-block mfp-hide">
+    <div class="ac-sidebar">
+        <div class="ac-sidebar__block">
+            <div class="header__account-popup-close">
+                <img src="images/close.png" alt="">
+            </div>
+            <div class="ac-sidebar__wrapper">
+                <a href="account.html" class="ac-sidebar__avatar">
+                    <div class="ac-sidebar__avatar-img">
+                        <img src="images/account/avatar.png" width="98px" height="98px">
+                    </div>
+                    <div class="ac-sidebar__avatar-name">
+                        <h4>NameUser</h4>
+                    </div>
+                </a>
+            </div>
+            <hr class="ac-sidebar__hr">
+            <div class="ac-sidebar__content">
+                <a class="" href="account-engine.html">Мой майнинг</a>
+                <a class="" href="account-tariffs.html">купить мощность</a>
+                <a class="" href="account-billing.html">биллинг</a>
+                <a class="" href="account-referal.html">реферальная программа</a>
+            </div>
+            <div class="ac-sidebar__btn">
+                <form action="">
+                    <button type="submit">Выход</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal window account end -->
+
+<script>
+    // Limit number after point
+    function func(e) {
+        if (e.value.indexOf(".") != '-1') {
+            e.value = e.value.substring(0, e.value.indexOf(".") + 3);
+        }
+    }
+
+    // Limit sumbol in input
+    function limitText(limitField, limitNum) {
+        if (limitField.value.length > limitNum) {
+            limitField.value = limitField.value.substring(0, limitNum);
+        }
+    }
+</script>
+<script>
+    // Account-referal copy input start
+
+    function referalInputCopy() {
+        /* Get the text field */
+        var copyText = document.getElementById("inputCopyText");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+    }
+
+ // Account-referal copy input end
+</script>
+<script src="js/libs.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/intlTelInput.min.js"></script>
+<script src="js/liteChart.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    // Popup input select some languages
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+        onlyCountries: ["ru", "gb"],
+        utilsScript: "js/utils.js",
+    });
+</script>
+
+<!-- Chart js start / График на JS-->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Create liteChart.js Object
+        let d = new liteChart("chart", {
+            axisX: {
+                show: true,
+                color: "#43445F",
+                width: 2,
+                value: "$",
+            },
+            axisY: {
+                show: true,
+                color: "transparent",
+                width: 2,
+                value: "",
+                minValue: 0,
+                maxValue: 0,
+            },
+            fill: null,
+            gridX: {
+                show: true,
+                interval: 170,
+                fill: 1,
+                label: {
+                    show: true
+                },
+                stroke: "#e9edf1",
+                width: 2,
+                dasharray: "0 10.04",
+                linecap: "round",
+            },
+            gridY: {
+                show: false,
+            },
+            line: {
+                width: 2,
+                style: "straight",
+                shadow: true,
+            },
+            point: {
+                show: true,
+                radius: 4,
+                strokeWidth: 3,
+                stroke: "#E95624", // null or color by hex/rgba
+                fill: "#E95624",
+            },
+            legends: {
+                table: {
+                    show: true,
+                    position: {
+                        x: "center",
+                        y: 370,
+                    },
+                    direction: "horizontal",
+                },
+                fill: "#c5c6d0",
+            }
+        });
+
+        // Set labels
+        let windowsize = $(window).width();
+
+        $(window).resize(function() {
+            let windowsize = $(window).width();
+        });
+
+        if (windowsize <= 820) {
+            d.setLabels(["01.01", "02.01", "03.01", "04.01", "05.01", "06.01", "07.01", "08.01"]);
+            d.addLegend({ "name": "прирост", "stroke": "#411084", "fill": "#fff", "values": [0.0000100, 0.0000200, 0.0000450, 0.0000400, 0.0000120, 0.0000300, 0.0000700, 0.0000520] });
+        } else {
+            d.setLabels(["01.01", "02.01", "03.01", "04.01", "05.01", "06.01", "07.01", "08.01", "09.01", "10.01", "11.01", "12.01", "13.01", "14.01", "15.01"]);
+            d.addLegend({ "name": "прирост", "stroke": "#411084", "fill": "#fff", "values": [0.0000100, 0.0000200, 0.0000450, 0.0000400, 0.0000120, 0.0000300, 0.0000700, 0.0000860, 0.0000601, 0.0000705, 0.0000604, 0.0000803, 0.0000150, 0.0000240, 0.0000230] });
+        }
+
+        // Inject chart into DOM object
+        let div = document.getElementById("account-chart");
+        d.inject(div);
+
+        // Draw
+        d.draw();
+    });
+</script>
+<!-- Chart js end -->
+
+<script>
+    // DropBurgerMenu for title page start
+    function myDropBtn() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+// DropBurgerMenu for title page end
+</script>
+
+</body>
+
+</html>
